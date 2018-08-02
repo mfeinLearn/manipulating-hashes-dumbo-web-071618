@@ -18,7 +18,7 @@ def first_challenge
   #if (contacts["Freddy Mercury"][:favorite_icecream_flavors] == "strawberry")
   
   contacts.each do |name, data|
-    #binding.pry
+    binding.pry
     data.each do |keys, values|
       #binding.pry
       if keys == :favorite_icecream_flavors
